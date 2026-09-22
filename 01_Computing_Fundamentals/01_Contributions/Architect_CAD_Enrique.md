@@ -1,7 +1,5 @@
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/Kx-ZzvAwE?share=true)
-
-
-![Uploading image.png…]()
+https://uk.buildcores.com/setup/bROWLJXoQ?share=true&view=setup
 
  
 |**Component**|**Title**|**Price**|**Why**|
