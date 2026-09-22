@@ -31,10 +31,10 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed
 
 | Task | Amaka | Beth | Toby | Enrique | Fatima |
 |------|----------|----------|----------|----------|----------|
-| Administrative Assistant build (BuildCores + peripherals) | | | RA | | |
-| Project Manager build (BuildCores + peripherals) | | | | | RA |
-| Architect / CAD Designer build (BuildCores + peripherals) | | RA | | RA | |
-| 3D Visualisation Specialist build (BuildCores + peripherals) | RA | | | | |
+| Administrative Assistant build (BuildCores + peripherals) | I | | RA | | |
+| Project Manager build (BuildCores + peripherals) | I | | | | RA |
+| Architect / CAD Designer build (BuildCores + peripherals) | I | RA | | RA | |
+| 3D Visualisation Specialist build (BuildCores + peripherals) | RACI | | | | |
 | Component justifications (role suitability & value) | | | | | |
 | Pricing evidence (screenshots, links, date checked) | | | | | |
 | Combined budget & comparison table | | | | | |
