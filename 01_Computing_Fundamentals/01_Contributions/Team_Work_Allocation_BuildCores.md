@@ -6,9 +6,9 @@
 | | |
 |---|---|
 | **Team name** | |
-| **Repository** | |
+| **Repository** | COM4401-2026-AS36-3 |
 | **Submission date** | Friday 23 October 2026 |
-| **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
+| **How we'll keep in touch** | *WhatsApp Group Chat* |
 
 ---
 
