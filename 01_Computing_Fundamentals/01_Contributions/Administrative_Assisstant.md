@@ -1,6 +1,4 @@
-![Uploading image.png…]()
-
-
+<img width="2400" height="1260" alt="image" src="https://github.com/user-attachments/assets/1b19fd87-0889-44d2-9204-1b0379324a67" />
 
 |**Component**|**Title**|**Price**| **Justification** |
 |:-|:-|:-|:-|
