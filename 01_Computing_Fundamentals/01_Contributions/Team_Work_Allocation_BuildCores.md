@@ -29,16 +29,16 @@
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-| Task | Amaka | Beth | Toby | Enrique | Fatima |
-|------|----------|----------|----------|----------|----------|
-| Administrative Assistant build (BuildCores + peripherals) | I | | RA | | |
-| Project Manager build (BuildCores + peripherals) | I | | | | RA |
-| Architect / CAD Designer build (BuildCores + peripherals) | I | RAC | | RAC | |
-| 3D Visualisation Specialist build (BuildCores + peripherals) | RAI | | | | |
-| Component justifications (role suitability & value) | RI | R | R | R | R |
-| Pricing evidence (screenshots, links, date checked) | RI | R | R | R | R |
-| Combined budget & comparison table | I | | | | |
-| Final team recommendation | I | | | |
-| Ethical / responsible purchasing commentary | I | | | |
+| Task | Toby | Fatima | Beth | Enrique | Amaka |
+|------|------|--------|------|---------|-------|
+| Administrative Assistant build (BuildCores + peripherals) | RA | | | | I |
+| Project Manager build (BuildCores + peripherals) | | RA | | | I |
+| Architect / CAD Designer build (BuildCores + peripherals) | | | RAC | RAC | I |
+| 3D Visualisation Specialist build (BuildCores + peripherals) | | | | | RAI |
+| Component justifications (role suitability & value) | R | R | R | R | RI |
+| Pricing evidence (screenshots, links, date checked) | R | R | R | R | RI |
+| Combined budget & comparison table | | | | | I |
+| Final team recommendation | | | | | I |
+| Ethical / responsible purchasing commentary | | | | | I |
 
 > Add or remove a member column for a 3- or 5-person team, and adjust the build rows so every role is owned by someone.
