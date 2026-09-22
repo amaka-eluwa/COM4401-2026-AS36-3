@@ -1,1 +1,1 @@
-strenght:design , aim: improve coding fact:spanish speaking  
+strenght:design , aim: improve coding fact:spanish speaker
