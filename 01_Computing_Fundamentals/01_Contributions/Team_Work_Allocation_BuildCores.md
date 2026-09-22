@@ -33,12 +33,12 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed
 |------|----------|----------|----------|----------|----------|
 | Administrative Assistant build (BuildCores + peripherals) | I | | RA | | |
 | Project Manager build (BuildCores + peripherals) | I | | | | RA |
-| Architect / CAD Designer build (BuildCores + peripherals) | I | RA | | RA | |
-| 3D Visualisation Specialist build (BuildCores + peripherals) | RACI | | | | |
-| Component justifications (role suitability & value) | | | | | |
-| Pricing evidence (screenshots, links, date checked) | | | | | |
-| Combined budget & comparison table | | | | | |
-| Final team recommendation | | | | |
-| Ethical / responsible purchasing commentary | | | | |
+| Architect / CAD Designer build (BuildCores + peripherals) | I | RAC | | RAC | |
+| 3D Visualisation Specialist build (BuildCores + peripherals) | RAI | | | | |
+| Component justifications (role suitability & value) | RI | R | R | R | R |
+| Pricing evidence (screenshots, links, date checked) | RI | R | R | R | R |
+| Combined budget & comparison table | I | | | | |
+| Final team recommendation | I | | | |
+| Ethical / responsible purchasing commentary | I | | | |
 
 > Add or remove a member column for a 3- or 5-person team, and adjust the build rows so every role is owned by someone.
