@@ -1,8 +1,8 @@
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/OTuLVdqsB?share=true)
 
  
-|**Component**|**Title**|**Price**|
-|:-|:-|:-|
+|**Component**|**Title**|**Price**| **Justification** |
+|:-|:-|:-|:-|
 |Case|[Phanteks XT PRO ATX Mid Tower Black Tempered Glass Side Panel](https://uk.buildcores.com/products/PCCase/dj5bop744/Phanteks-XT-PRO-ATX-Mid-Tower-Black-Tempered-Glass-Side-Panel)|[£52.98 (Box.co)](https://www.awin1.com/cread.php?awinmid=100685&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fbox.co.uk%2Fph-xt523p1-bk01-phanteks-xt-pro-atx-tempered-glass)|
 |CPU|[AMD Ryzen 5 5500](https://uk.buildcores.com/products/CPU/2ixkrou1w/AMD-Ryzen-5-5500)|[£74.99 (Overclockers)](https://www.awin1.com/cread.php?awinmid=28821&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fwww.overclockers.co.uk%2Famd-ryzen-5-5500-six-core-4.2ghz-socket-am4-processor-retail-cp-3d3-am.html)|
 |Motherboard|[Gigabyte B550M AORUS ELITE (rev.1.3)](https://uk.buildcores.com/products/Motherboard/15jd7epvf/Gigabyte-B550M-AORUS-ELITE-(rev.1.3))|[£79.93 (Box.co)](https://www.awin1.com/cread.php?awinmid=100685&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fbox.co.uk%2Fb550m-aorus-elite-gigabyte-matx-am4-motherboard)|
