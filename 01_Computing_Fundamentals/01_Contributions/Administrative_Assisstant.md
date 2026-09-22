@@ -1,6 +1,3 @@
-BuildCores Parts List: [Link](https://uk.buildcores.com/builds/OTuLVdqsB?share=true)
-
- 
 |**Component**|**Title**|**Price**| **Justification** |
 |:-|:-|:-|:-|
 |Case|[Phanteks XT PRO ATX Mid Tower Black Tempered Glass Side Panel](https://uk.buildcores.com/products/PCCase/dj5bop744/Phanteks-XT-PRO-ATX-Mid-Tower-Black-Tempered-Glass-Side-Panel)|[£52.98 (Box.co)](https://www.awin1.com/cread.php?awinmid=100685&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fbox.co.uk%2Fph-xt523p1-bk01-phanteks-xt-pro-atx-tempered-glass)| Cheap and simple design so it does not distract employees |
@@ -15,4 +12,3 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/OTuLVdqsB?share=t
 |Mouse|[Logitech M90 Wired Optical Mouse](https://uk.buildcores.com/products/Mouse/4hwsev1ew/Logitech-M90-Wired-Optical-Mouse)|[£4.49 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Flogitech-m90-optical-mouse-high-definition-optical-tracking-ambidextrous-design-usb-black)| simple and reliable |
 | | | | |
 |**Total Price**|**$769.70**| |
-|[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
