@@ -1,3 +1,6 @@
+![Uploading image.png…]()
+
+
 |**Component**|**Title**|**Price**| **Justification** |
 |:-|:-|:-|:-|
 |Case|[Phanteks XT PRO ATX Mid Tower Black Tempered Glass Side Panel](https://uk.buildcores.com/products/PCCase/dj5bop744/Phanteks-XT-PRO-ATX-Mid-Tower-Black-Tempered-Glass-Side-Panel)|[£52.98 (Box.co)](https://www.awin1.com/cread.php?awinmid=100685&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fbox.co.uk%2Fph-xt523p1-bk01-phanteks-xt-pro-atx-tempered-glass)| Cheap and simple design so it does not distract employees |
