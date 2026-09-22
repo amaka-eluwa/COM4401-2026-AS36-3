@@ -1,3 +1,4 @@
+<img width="2400" height="1260" alt="image" src="https://github.com/user-attachments/assets/c0b4c6db-2fba-4d82-8156-a1a491d6761c" />
 
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/v5FtLmCVJ?share=true)
 
