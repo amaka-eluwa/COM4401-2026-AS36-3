@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+
 
 
 |**Component**|**Title**|**Price**| **Justification** |
