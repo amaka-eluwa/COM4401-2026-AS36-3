@@ -29,7 +29,7 @@
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-| Task | Amaka | Beth | Toby | Milton | Fatima |
+| Task | Amaka | Beth | Toby | Enrique | Fatima |
 |------|----------|----------|----------|----------|----------|
 | Administrative Assistant build (BuildCores + peripherals) | | | | | |
 | Project Manager build (BuildCores + peripherals) | | | | | |
