@@ -1,9 +1,9 @@
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/Kx-ZzvAwE?share=true)
 
  
-|**Component**|**Title**|**Price**|
-|:-|:-|:-|
-|Case|[Montech KING 95 PRO ATX Mid Tower Pure White Tempered Glass Side Panel](https://uk.buildcores.com/products/PCCase/qq9jamk7c/Montech-KING-95-PRO-ATX-Mid-Tower-Pure-White-Tempered-Glass-Side-Panel)|[£109.98 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Fmontech-king-95-pro-white-mid-tower-chassis-argb-lighting-2x-140mm-fans-4x-120mm-mitx-matx-atx)|
+|**Component**|**Title**|**Price**|**Why**|
+|:-|:-|:-|:-|
+|Case|[Montech KING 95 PRO ATX Mid Tower Pure White Tempered Glass Side Panel](https://uk.buildcores.com/products/PCCase/qq9jamk7c/Montech-KING-95-PRO-ATX-Mid-Tower-Pure-White-Tempered-Glass-Side-Panel)|[£109.98 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Fmontech-king-95-pro-white-mid-tower-chassis-argb-lighting-2x-140mm-fans-4x-120mm-mitx-matx-atx)|Enough Space to make sure all the comnponents fit in , as well for cooling system to be added to it as it ha an total of 6 fans so it doesnt overheat as well with an CPU cooler , and it prioritizes breathing and ventilation for the components 
 |CPU|[AMD Ryzen 7 7800X3D](https://uk.buildcores.com/products/CPU/8apivzgu6/AMD-Ryzen-7-7800X3D)|[£299.00 (Amazon)](https://www.amazon.co.uk/dp/B0BTZB7F88?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
 |Motherboard|[Gigabyte B850M AORUS ELITE WIFI6E ICE AM5 DDR5 Micro ATX](https://uk.buildcores.com/products/Motherboard/kac35k3wd/Gigabyte-B850M-AORUS-ELITE-WIFI6E-ICE-AM5-DDR5-Micro-ATX)|[£166.99 (Box.co)](https://www.awin1.com/cread.php?awinmid=100685&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fbox.co.uk%2Fb850m-aorus-elite-wifi6e-ice-gigabyte-amd-motherboard)|
 |GPU|[PowerColor Reaper AMD Radeon RX 9070 XT 16GB GDDR6](https://uk.buildcores.com/products/GPU/avmrwd6ve/PowerColor-Reaper-AMD-Radeon-RX-9070-XT-16GB-GDDR6)|[£698.99 (Overclockers)](https://www.awin1.com/cread.php?awinmid=28821&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fwww.overclockers.co.uk%2Fpowercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card-gra-pwc-04017.html)|
