@@ -1,6 +1,6 @@
 # Project Manager Workstation Build - Fatimah
 | Component | Title | Price | Reason |
-|---|---|---:|
+|---|---|---|---:|
 | Case | [Corsair 3200D RS Black](https://uk.buildcores.com/products/PCCase/xbh2yq5c0/Corsair-3200D-RS-Black) | £59.99 |
 | CPU | [AMD Ryzen 7 9700X](https://uk.buildcores.com/products/CPU/x2thvstj3/AMD-Ryzen-7-9700X) | £244.99 |
 | Motherboard | [Gigabyte B650M GAMING PLUS WIFI DDR5 Micro ATX](https://uk.buildcores.com/products/Motherboard/11wyfrq53/Gigabyte-B650M-GAMING-PLUS-WIFI-DDR5-Micro-ATX) | £141.73 |
