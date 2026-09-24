@@ -157,7 +157,7 @@
 <td>Integrated Wi-Fi provided by the MSI MAG B850 TOMAHAWK MAX WIFI motherboard</td>
 <td>£0.00</td>
 <td><a href="https://www.overclockers.co.uk/msi-mag-b850-tomahawk-max-wifi-amd-am5-b850-atx-motherboard-mot-msi-03993.html">Overclockers</a></td>
-<td>24/09/2026</td>
+<td>22/09/2026</td>
 </tr>
 
 <tr>
