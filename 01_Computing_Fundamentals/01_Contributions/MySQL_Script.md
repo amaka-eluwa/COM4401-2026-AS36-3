@@ -109,4 +109,12 @@ TRUE,
 
 -- Q1: Displays all employee roles
 SELECT * FROM EmployeeRoles;
+-- Q2
+SELECT RoleName, BudgetPerWorkstation FROM EmployeeRoles;
+-- Q3
+SELECT RoleName, BudgetPerWorkstation FROM EmployeeRoles
+WHERE BudgetPerWorkstation > 1000;
+-- Q4
+SELECT RoleName, StaffCount FROM EmployeeRoles
+ORDER BY StaffCount DESC;
 
