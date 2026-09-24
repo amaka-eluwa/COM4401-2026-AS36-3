@@ -179,19 +179,19 @@
 </tr>
 
 <tr>
-<th colspan="2">TOTAL WORKSTATION COST</th>
+<td colspan="2"><strong>TOTAL WORKSTATION COST</strong></td>
 <td><strong>£3,512.59</strong></td>
 <td colspan="2"></td>
 </tr>
 
 <tr>
-<th colspan="2">ROLE HARDWARE BUDGET</th>
+<td colspan="2"><strong>ROLE HARDWARE BUDGET</strong></td>
 <td><strong>£3,750.00</strong></td>
 <td colspan="2"></td>
 </tr>
 
 <tr>
-<th colspan="2">REMAINING BUDGET</th>
+<td colspan="2"><strong>REMAINING BUDGET</strong></td>
 <td><strong>£237.41</strong></td>
 <td colspan="2"></td>
 </tr>
