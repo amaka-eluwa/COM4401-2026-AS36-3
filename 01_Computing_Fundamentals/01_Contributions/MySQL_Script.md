@@ -52,12 +52,14 @@ CREATE TABLE Recommendations (
 INSERT INTO EmployeeRoles (RoleID, RoleName, StaffCount, Tasks, PerformanceNeed, BudgetPerUnit)
 VALUES
 (4,'3D Visualisation Specialist', 2, '3D modelling, architectural visualisation, rendering and detailed scene creation', 
-'High-performance CPU/GPU, 64GB RAM, fast NVMe storage and colour-accurate 4K displays', 3750.00);
+'High-performance CPU/GPU, 64GB RAM, fast NVMe storage and colour-accurate 4K displays', 3750.00),
+(1, 'Administrative Assistant', 2, 'Email, documents, spreadsheets, web systems, online meetings, and basic customer records', 'Camera for meeting, monitor keyboard and mouse for basic computer functions, good storage to keep records', 950.00);
 
 -- Adds data into the WorkstationBuilds table
 INSERT INTO WorkstationBuilds (BuildID, RoleID, BuildName, Source)
 VALUES
-(4, 4, '3D Visualisation Specialist Workstation', 'BuildCores');
+(4, 4, '3D Visualisation Specialist Workstation', 'BuildCores'),
+(1, 1, 'Administrative Assistant', 'BuildCores');
 
 -- Adds hardware items into the BuildItems table
 INSERT INTO BuildItems (ItemID, BuildID, HardwareCategory, ItemName, Specification, Cost)
@@ -77,7 +79,18 @@ VALUES
 (13, 4, 'Webcam/Headset', 'Tewiky Full HD Webcam', '2K video, wide angle, built-in microphone', 25.94),
 (14, 4, 'Webcam/Headset', 'Logitech H111', 'Stereo headset with microphone', 12.40),
 (15, 4, 'Network/Cables/Adapters', 'Newlink DisplayPort 1.4 cable', '2m male-to-male HBR3', 5.99),
-(16, 4, 'Network/Cables/Adapters', 'Newlink DisplayPort 1.4 cable', '2m male-to-male HBR3', 5.99);
+(16, 4, 'Network/Cables/Adapters', 'Newlink DisplayPort 1.4 cable', '2m male-to-male HBR3', 5.99),
+(17, 1, 'CPU', 'AMD Ryzen 5 5500', 'AM4, 16MB Cache, Includes Cooler, DDR4, 128GB Memory', 74.99),
+(18, 1, 'GPU', 'ASRock Intel Arc A580 Challenger OC 8GB GDDR6', 'PCLe 4.0, 2 Fans, 8GB Memory, 2000MHz', 220.96),
+(19, 1, 'Case', 'Phanteks XT PRO ATX Mid Tower Black Tempered Glass Side Panel', 'ATX, 4 bays, 7 expansion slots, USB-C 3.0, USB 3.0', 52.98),
+(20, 1, 'Motherboard', 'ASUS TUF GAMING B550-PLUS WIFI II AM4 DDR4 ATX', 'AM4, ATX, DDR4, 128GB Memory, 4 Memory slots, Wifi 6, 24-pin power, ECC and Raid support, BIOS Flashback', 108.99),
+(21, 1, 'RAM', 'Corsair Vengeance RGB Pro Black DDR4-3000 CL16 16GB', '3000MHz, 2 modules, Heat spreader, 16GB Capacity', 118.99),
+(22, 1, 'Storage', 'TEAMGROUP MP33 1TB M.2-2280 SSD PCIe 3.0 x4 NVMe', '1TB, NVMe, SSD', 29.72),
+(23, 1, 'Power Supply', 'Gigabyte P850GM ATX 850W Fully Modular 80+ Gold Certified', '80+ Gold efficiency, Full modularity, ATX, 850W', 59.99),
+(24, 1, 'Monitor', 'Dell E2216H 21.5" 1080p 60Hz TN Monitor', '60Hz, 1920px X 1080px', 81),
+(25, 1, 'Keyboard', 'HP 320K Wired Standard Keyboard', 'ANSI', 17.59),
+(26, 1, 'Mouse', 'Logitech M90 Wired Optical Mouse', 'No connectivity', 4.49),
+(27, 1, 'Webcam', 'Logitech C930e 1080p Webcam', 'no connectivity type', 9.99);
 
 -- Adds recommendation data into the Recommendations table
 INSERT INTO Recommendations (RecommendationID, RoleID, Justification, Compromise, Approved, EthicalNotes)
