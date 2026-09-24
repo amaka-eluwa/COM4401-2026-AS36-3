@@ -182,8 +182,7 @@
 
 <tr>
 <td colspan="2"><strong>TOTAL WORKSTATION COST</strong></td>
-<td><strong>£3,512.59</strong></td>
-<td colspan="2"></td>
+<td colspan="3"><strong>£3,512.59</strong></td>
 </tr>
 
 <tr>
