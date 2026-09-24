@@ -53,7 +53,7 @@ INSERT INTO EmployeeRoles (RoleID, RoleName, StaffCount, Tasks, PerformanceNeed,
 VALUES
 (4,'3D Visualisation Specialist', 2, '3D modelling, architectural visualisation, rendering and detailed scene creation', 
 'High-performance CPU/GPU, 64GB RAM, fast NVMe storage and colour-accurate 4K displays', 3750.00),
-(1, 'Administrative Assistant', 2, 'Email, documents, spreadsheets, web systems, online meetings, and basic customer records', 'Camera for meeting, monitor keyboard and mouse for basic computer functions, good storage to keep records', 950.00);
+(1, 'Administrative Assistant', 2, 'Email, documents, spreadsheets, web systems, online meetings, and basic customer records', 'Webcam, Monitor, Keyboard, Mouse, Sufficient storage', 950.00);
 (2, 'Project Manager', 2, '
 -- Adds data into the WorkstationBuilds table
 INSERT INTO WorkstationBuilds (BuildID, RoleID, BuildName, Source)
