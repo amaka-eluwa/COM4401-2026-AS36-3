@@ -154,7 +154,7 @@
 
 <tr>
 <td>Network access</td>
-<td><a href="https://uk.buildcores.com/products/Motherboard/teqcl6hgw/MSI-B850-MAG-TOMAHAWK-MAX-WIFI-DDR5-ATX">Integrated Wi-Fi provided by the MSI MAG B850 TOMAHAWK MAX WIFI motherboard</a></td>
+<td>Integrated Wi-Fi provided by the MSI MAG B850 TOMAHAWK MAX WIFI motherboard</td>
 <td>£0.00</td>
 <td><a href="https://www.overclockers.co.uk/msi-mag-b850-tomahawk-max-wifi-amd-am5-b850-atx-motherboard-mot-msi-03993.html">Overclockers</a></td>
 <td>22/09/2026</td>
