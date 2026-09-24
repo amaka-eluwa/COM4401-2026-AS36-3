@@ -18,7 +18,7 @@
 | Section 1: Password hygiene | | |
 | Section 2: Two-factor authentication | | |
 | Section 3: Phishing recognition | | |
-| Section 4: Safe use of devices | | |
+| Section 4: Safe use of devices |fatimah | |
 | Section 5: Public Wi-Fi | | |
 | Introduction & conclusion (whole team) | | |
 | Contents page & reference list (compile last) | | |
