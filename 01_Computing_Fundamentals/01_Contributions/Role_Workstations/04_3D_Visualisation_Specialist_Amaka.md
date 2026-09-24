@@ -11,10 +11,10 @@
 <thead>
 <tr>
 <th>Hardware</th>
-<th>Chosen item / Specification</th>
+<th>Chosen Item / Specification</th>
 <th>Cost</th>
 <th>Source</th>
-<th>Date checked</th>
+<th>Date Checked</th>
 </tr>
 </thead>
 
@@ -89,7 +89,7 @@
 </tr>
 
 <tr>
-<th colspan="5" style="background-color:#d9e2f3; text-align:center;">DISPLAY</th>
+<th colspan="5" style="text-align:center;">DISPLAY</th>
 </tr>
 
 <tr>
@@ -109,7 +109,7 @@
 </tr>
 
 <tr>
-<th colspan="5" style="background-color:#d9e2f3; text-align:center;">INPUT DEVICES</th>
+<th colspan="5" style=text-align:center;">INPUT DEVICES</th>
 </tr>
 
 <tr>
@@ -129,7 +129,7 @@
 </tr>
 
 <tr>
-<th colspan="5" style="background-color:#d9e2f3; text-align:center;">COMMUNICATION HARDWARE</th>
+<th colspan="5" style=text-align:center;">COMMUNICATION HARDWARE</th>
 </tr>
 
 <tr>
@@ -149,7 +149,7 @@
 </tr>
 
 <tr>
-<th colspan="5" style="background-color:#d9e2f3; text-align:center;">NETWORK ACCESS</th>
+<th colspan="5" style=text-align:center;">NETWORK ACCESS</th>
 </tr>
 
 <tr>
@@ -161,7 +161,7 @@
 </tr>
 
 <tr>
-<th colspan="5" style="background-color:#d9e2f3; text-align:center;">CABLES / ADAPTERS</th>
+<th colspan="5" style=text-align:center;">CABLES / ADAPTERS</th>
 </tr>
 
 <tr>
@@ -197,3 +197,17 @@
 
 </tbody>
 </table>
+
+<br>
+
+## BuildCores PC Build (Base Unit)
+<br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/326fe737-2655-430e-9679-3379da526cb9" width="800">
+</p>
+<p align="center">
+  <em>Figure 1. BuildCores configuration for the 3D Visualisation Specialist workstation base unit.</em>
+</p>
+<br>
+The BuildCores configuration above shows a total of approximately **£3,501**, with the exact total as **£3,500.61**. This figure represents the core workstation configuration sourced through BuildCores and does not include the two separately sourced DisplayPort cables. The DisplayPort cables were added separately to meet the complete workstation requirement, bringing the final workstation cost to **£3,512.59** as shown in the cost table.
+
