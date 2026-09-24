@@ -100,7 +100,13 @@ VALUES
 'This workstation is designed for demanding 3D modelling, architectural visualisation, rendering and detailed scene creation. The Ryzen 9 9950X, RTX 5070 and 64GB of DDR5 RAM provide strong processing and graphics performance, while the two 4K ASUS ProArt monitors provide a detailed and spacious workspace.',
 'The build remains within the £3,750 budget while prioritising CPU, GPU, memory and display capability. The final cost leaves £237.41 of flexibility for potential price changes or future adjustments.',
 TRUE,
-'The hardware selection balances performance, upgradeability and durability without exceeding the allocated budget. Appropriate security measures should also be used to protect confidential client information, architectural plans and project documents.');
+'The hardware selection balances performance, upgradeability and durability without exceeding the allocated budget. Appropriate security measures should also be used to protect confidential client information, architectural plans and project documents.'),
+(1,
+1,
+'This workstation is designed to complete basic computer functions such as emails, data transfer and video calls. the RAM and storage provide more than enough bytes for effective use. the webcam and monitor allow for adequate quality for online meetings as well as being able to see the other person.',
+'No compromises were made to the build as all of the components fit within the budget. A budget of £950 was given for each unit and the build comes out to £779.69 which leaves £170.31 of the budget for other uses.',
+TRUE,
+'The hardware has been selected to both perform as well as be able to be upgraded if necessary. security measure should be considered to protect client information.');
 
 
 -- ============================================
