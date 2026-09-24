@@ -17,7 +17,6 @@
 <p>
 The BuildCores configuration shows a total of approximately <strong>£3,501</strong>, with an exact total of <strong>£3,500.61</strong>. This figure represents the core workstation configuration sourced through BuildCores and does not include the two separately sourced DisplayPort cables. The DisplayPort cables were added separately to meet the complete workstation requirement, bringing the final workstation cost to <strong>£3,512.59</strong> as shwon in the hardware cost table below.
 </p>
-BuildCores Parts List: [Link](https://uk.buildcores.com/builds/aKAiyQ7GR?share=true)
 
 <br>
 
