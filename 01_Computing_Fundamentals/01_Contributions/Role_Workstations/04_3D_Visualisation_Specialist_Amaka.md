@@ -11,10 +11,10 @@
 <thead>
 <tr>
 <th>Hardware</th>
-<th>Chosen item / specification</th>
+<th>Chosen item / Specification</th>
 <th>Cost</th>
 <th>Source</th>
-<th>Price checked</th>
+<th>Date price was checked</th>
 </tr>
 </thead>
 
