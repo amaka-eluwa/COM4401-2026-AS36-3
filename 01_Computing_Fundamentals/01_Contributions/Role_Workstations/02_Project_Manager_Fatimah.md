@@ -11,5 +11,6 @@
 | Power Supply | [MSI MAG A650GL Black 650W Fully Modular 80+ Gold Certified ATX](https://uk.buildcores.com/products/PSU/unn6lswmr/MSI-MAG-A650GL-Black-650W-Fully-Modular-80%2B-Gold-Certified-ATX) | £70.99 |
 | Case Fan | [](retailer-link) | £ |
 | Webcam | [](retailer-link) | £ |
-| Cables/Adapters | [](retailer-link) | £ |
+| Keyboard | [](retailer-link) | £ |
+| Mouse
 | **Total Price** | | **£** |
