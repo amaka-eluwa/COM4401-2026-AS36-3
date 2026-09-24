@@ -15,10 +15,10 @@
 
 | Member | Build / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
-| Toby | Administrative Assistant build | |
-| Fatimah | Project Manager build | |
-| Beth & Enrique | Architect / CAD Designer build | |
-| Amaka | 3D Visualisation Specialist build | |
+|  | Administrative Assistant build | |
+|  | Project Manager build | |
+|  | Architect / CAD Designer build | |
+|  | 3D Visualisation Specialist build | |
 
 > Add or remove a row for a 3- or 5-person team. Shared tasks (final recommendation, budget check, ethics write-up) can be added as extra rows.
 
