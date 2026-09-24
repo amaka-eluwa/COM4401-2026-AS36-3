@@ -3,6 +3,7 @@
 > **Northwest Architecture Studio Ltd.**  
 > Hardware Refresh and Specification
 
+
 ## Hardware Workstation Cost Table
 
 <table>
@@ -19,7 +20,7 @@
 <tbody>
 
 <tr>
-<th colspan="5" style="background-color:#d9e2f3; text-align:center;">BASE UNIT</th>
+<th colspan="5" style="background-color:#b4c7e7; text-align:center;">BASE UNIT</th>
 </tr>
 
 <tr>
