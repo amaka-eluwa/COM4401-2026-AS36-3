@@ -14,7 +14,7 @@
 <th>Chosen item / Specification</th>
 <th>Cost</th>
 <th>Source</th>
-<th>Date price was checked</th>
+<th>Date checked</th>
 </tr>
 </thead>
 
