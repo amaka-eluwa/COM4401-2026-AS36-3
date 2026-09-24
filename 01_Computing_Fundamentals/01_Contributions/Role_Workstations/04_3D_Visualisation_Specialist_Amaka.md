@@ -187,14 +187,12 @@
 
 <tr>
 <td colspan="2"><strong>ROLE HARDWARE BUDGET</strong></td>
-<td><strong>£3,750.00</strong></td>
-<td colspan="2"></td>
+<td colspan="3"><strong>£3,750.00</strong></td>
 </tr>
 
 <tr>
 <td colspan="2"><strong>REMAINING BUDGET</strong></td>
-<td><strong>£237.41</strong></td>
-<td colspan="2"></td>
+<td colspan="3"><strong>£237.41</strong></td>
 </tr>
 
 </tbody>
