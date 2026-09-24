@@ -9,7 +9,7 @@
 | CPU Cooler | [Noctua NH-L9A-AM5 Air 37mm Brown / Silver](https://uk.buildcores.com/products/CPUCooler/2kci7uv79/Noctua-NH-L9A-AM5-Air-37mm-Brown-Silver) | £39.95 |
 | Storage | [Kingston NV3 2TB M.2 SSD PCIe 4.0 NVMe](https://uk.buildcores.com/products/Storage/w1rsaflu1/Kingston-NV3-2TB-M.2-SSD-PCIe-4.0-NVMe) | £229.99 |
 | Power Supply | [MSI MAG A650GL Black 650W Fully Modular 80+ Gold Certified ATX](https://uk.buildcores.com/products/PSU/unn6lswmr/MSI-MAG-A650GL-Black-650W-Fully-Modular-80%2B-Gold-Certified-ATX) | £70.99 |
-| Case Fan | [](retailer-link) | £XX.XX |
-| Webcam | [](retailer-link) | £XX.XX |
-| Cables/Adapters | [](retailer-link) | £XX.XX |
-| **Total Price** | | **£X,XXX.XX** |
+| Case Fan | [](retailer-link) | £ |
+| Webcam | [](retailer-link) | £ |
+| Cables/Adapters | [](retailer-link) | £ |
+| **Total Price** | | **£** |
