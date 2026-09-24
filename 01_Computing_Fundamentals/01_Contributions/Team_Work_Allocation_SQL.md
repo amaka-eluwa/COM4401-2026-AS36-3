@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Team name** | |
+| **Team name** | Team 3 |
 | **Repository** | |
 | **Deadline** | |
 | **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
