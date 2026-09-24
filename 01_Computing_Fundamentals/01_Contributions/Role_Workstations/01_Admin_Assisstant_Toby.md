@@ -14,4 +14,4 @@
 |Mouse|[Logitech M90 Wired Optical Mouse](https://uk.buildcores.com/products/Mouse/4hwsev1ew/Logitech-M90-Wired-Optical-Mouse)|[£4.49 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Flogitech-m90-optical-mouse-high-definition-optical-tracking-ambidextrous-design-usb-black)| Simple and reliable |
 |Webcam|[Logitech C930e 1080p Webcam](https://uk.buildcores.com/products/Webcam/yaqfui86b/Logitech-C930e-1080p-Webcam)|[£9.99 (BackToTheOffice)](https://www.awin1.com/cread.php?awinmid=61655&awinaffid=743627&campaign=BuildCores.com&ued=https%3A%2F%2Fwww.backtotheoffice.co.uk%2Fproducts%2Flogitech-c930e-privacy-cover%3Fvariant%3D55308830146942)| Cheap and has an adequate quality to be able to hold online meetings |
 | | | | |
-|**Total Price**|**$778.69**| |
+|**Total Price**|**$779.69**| |
