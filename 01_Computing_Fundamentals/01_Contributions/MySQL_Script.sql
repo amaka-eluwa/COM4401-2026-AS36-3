@@ -53,13 +53,14 @@ INSERT INTO EmployeeRoles (RoleID, RoleName, StaffCount, Tasks, PerformanceNeed,
 VALUES
 (4,'3D Visualisation Specialist', 2, '3D modelling, architectural visualisation, rendering and detailed scene creation', 
 'High-performance CPU/GPU, 64GB RAM, fast NVMe storage and colour-accurate 4K displays', 3750.00),
-(1, 'Administrative Assistant', 2, 'Email, documents, spreadsheets, web systems, online meetings, and basic customer records', 'Webcam, Monitor, Keyboard, Mouse, Sufficient storage', 950.00);
-(2, 'Project Manager', 2, '
+(1, 'Administrative Assistant', 2, 'Email, documents, spreadsheets, web systems, online meetings, and basic customer records', 'Webcam, Monitor, Keyboard, Mouse, Sufficient storage', 950.00),
+(2, 'Project Manager', 2, 'Organising tasks and deadlines, meetings and presentations', 'Efficient multitasking, video conferencing, webcam, high storage capacity', 1300.00);
 -- Adds data into the WorkstationBuilds table
 INSERT INTO WorkstationBuilds (BuildID, RoleID, BuildName, Source)
 VALUES
 (4, 4, '3D Visualisation Specialist Workstation', 'BuildCores'),
-(1, 1, 'Administrative Assistant', 'BuildCores');
+(1, 1, 'Administrative Assistant', 'BuildCores')
+(2, 2, 'Project Manager', 'Buildcores');
 
 -- Adds hardware items into the BuildItems table
 INSERT INTO BuildItems (ItemID, BuildID, HardwareCategory, ItemName, Specification, Cost)
@@ -91,6 +92,18 @@ VALUES
 (25, 1, 'Keyboard', 'HP 320K Wired Standard Keyboard', 'ANSI', 17.59),
 (26, 1, 'Mouse', 'Logitech M90 Wired Optical Mouse', 'No connectivity', 4.49),
 (27, 1, 'Webcam', 'Logitech C930e 1080p Webcam', 'no connectivity type', 9.99);
+(28, 2, 'Case', 'Corsair 3000D RS Black', 'ATX Mid Tower case', 59.99),
+(29, 2, 'CPU', 'AMD Ryzen 7 9700X', 'AM5 processor', 244.99),
+(30, 2, 'Motherboard', 'Gigabyte B650M GAMING PLUS WIFI DDR5 Micro ATX', 'AM5, DDR5, Micro ATX, integrated Wi-Fi', 141.73),
+(31, 2, 'GPU', 'ASUS GeForce GT 730 2GB GDDR5', '2GB GDDR5 dedicated graphics', 59.00),
+(32, 2, 'RAM', 'Crucial Pro Overclocking 32GB (2x16GB) DDR5 6000 CL36 Black', '32GB DDR5-6000 memory', 419.99),
+(33, 2, 'CPU Cooler', 'Noctua NH-L9A-AM5 Air 37mm Brown / Silver', 'AM5 air cooler', 39.95),
+(34, 2, 'Storage', 'Kingston NV3 2TB M.2 SSD PCIe 4.0 NVMe', '2TB PCIe 4.0 NVMe SSD', 229.99),
+(35, 2, 'Power Supply', 'MSI MAG A650GL Black 650W Fully Modular 80+ Gold', '650W fully modular, 80+ Gold', 70.99),
+(36, 2, 'Case Fan', 'HYTE FA12 Fans 4-Pack Snow White', '120mm case fans, 4-pack', 19.99),
+(37, 2, 'Webcam', 'NexiGo N60 1080p Webcam', '1080p webcam for video conferencing', 27.19),
+(38, 2, 'Keyboard', 'Redragon K745 Wired Gasket RGB Gaming Keyboard', 'Wired keyboard', 54.99),
+(39, 2, 'Mouse', 'Logitech M220 Wireless Mouse with Silent Clicks', 'Wireless mouse', 17.49);
 
 -- Adds recommendation data into the Recommendations table
 INSERT INTO Recommendations (RecommendationID, RoleID, Justification, Compromise, Approved, EthicalNotes)
@@ -106,7 +119,13 @@ TRUE,
 'This workstation is designed to complete basic computer functions such as emails, data transfer and video calls. the RAM and storage provide more than enough bytes for effective use. the webcam and monitor allow for adequate quality for online meetings as well as being able to see the other person.',
 'No compromises were made to the build as all of the components fit within the budget. A budget of £950 was given for each unit and the build comes out to £779.69 which leaves £170.31 of the budget for other uses.',
 TRUE,
-'The hardware has been selected to both perform as well as be able to be upgraded if necessary. security measure should be considered to protect client information.');
+'The hardware has been selected to both perform as well as be able to be upgraded if necessary. security measure should be considered to protect client information.')
+(2,
+2,
+'This workstation is designed for project management tasks including planning projects, organising deadlines, managing documents and spreadsheets, attending online meetings and communicating with clients and team members. The Ryzen 7 9700X and 32GB of RAM provide strong multitasking performance, while the fast NVMe storage provides ample capacity for project files, documents and applications.',
+'The build is designed to stay within the £1,300 budget per workstation while prioritising reliable processing performance, sufficient memory and fast storage. The components provide suitable performance for everyday project management without spending unnecessarily on specialist hardware.',
+TRUE,
+'The hardware selection balances performance, reliability, value and future upgradeability. Responsible purchasing should avoid unnecessary high-cost components and consider energy efficiency, warranties and expected lifespan. Appropriate security measures should also be used to protect confidential client information, project documents and business data.');
 
 
 -- ============================================
