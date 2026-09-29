@@ -54,8 +54,7 @@ VALUES
 (4,'3D Visualisation Specialist', 2, '3D modelling, architectural visualisation, rendering and detailed scene creation', 
 'High-performance CPU/GPU, 64GB RAM, fast NVMe storage and colour-accurate 4K displays', 3750.00),
 (1, 'Administrative Assistant', 2, 'Email, documents, spreadsheets, web systems, online meetings, and basic customer records', 'Webcam, Monitor, Keyboard, Mouse, Sufficient storage', 950.00),
-(2, 'Project Manager', 2, 'Organising tasks and deadlines, meetings and presentations', 'Efficient multitasking, video conferencing, webcam, high storage capacity', 1300.00);
-
+(2, 'Project Manager', 2, 'Organising tasks and deadlines, meetings and presentations', 'Efficient multitasking, video conferencing, webcam, high storage capacity', 1300.00),;
 -- Adds data into the WorkstationBuilds table
 INSERT INTO WorkstationBuilds (BuildID, RoleID, BuildName, Source)
 VALUES
@@ -105,7 +104,6 @@ VALUES
 (37, 2, 'Webcam', 'NexiGo N60 1080p Webcam', '1080p webcam for video conferencing', 27.19),
 (38, 2, 'Keyboard', 'Redragon K745 Wired Gasket RGB Gaming Keyboard', 'Wired keyboard', 54.99),
 (39, 2, 'Mouse', 'Logitech M220 Wireless Mouse with Silent Clicks', 'Wireless mouse', 17.49);
-
 -- Adds data into the Recommendations table
 INSERT INTO Recommendations (RecommendationID, RoleID, Justification, Compromise, Approved, EthicalNotes)
 VALUES
