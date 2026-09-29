@@ -187,9 +187,9 @@ SELECT * FROM EmployeeRoles;
 -- ORDER BY StaffCount DESC;
 
 
--- -- Q5: Displays every item that belongs to Build 1
+-- -- Q5: Displays every item that belongs to Build 4
 -- SELECT * FROM BuildItems
--- WHERE BuildID = 1;
+-- WHERE BuildID = 4;
 
 
 -- -- Q6: Counts the number of items in Build 1
