@@ -1,6 +1,0 @@
-Query 1: SELECT * FROM EmployeeRoles
-Query 2: SELECT RoleName, BudgetPerWorkstation FROM EmployeeRoles
-Query 3: SELECT RoleName, BudgetPerWorkstation FROM EmployeeRoles
-WHERE BudgetPerWorkstation > 1000
-Query 4: SELECT RoleName, StaffCount FROM EmployeeRoles
-ORDER BY StaffCount DESC;
