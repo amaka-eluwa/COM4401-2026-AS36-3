@@ -12,8 +12,3 @@ The relationships between the tables also help maintain consistency. For example
 
 The SQL queries were tested using the database created for the project. The working SQL statements and their results are included as portfolio evidence in the `Screenshots` folder.
 
-## Ethics and Professionalism
-
-Responsible purchasing was considered when selecting the hardware for the workstation builds. Hardware choices were based on the requirements of each role, performance needs and available pricing evidence rather than selecting components without considering their suitability or cost.
-
-Price information was checked against the selected suppliers to provide evidence for the workstation cost calculations. The team also considered the overall hardware budget when making purchasing recommendations.
