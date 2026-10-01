@@ -43,7 +43,7 @@ The final calculation is:
 
 **Total hardware refresh: £23,666.80**
 
-The hardware refresh therefore remains within the overall **£26,000 hardware budget**, with **£2,333.20 remaining**.
+The hardware refresh therefore remains within the overall **£25,450 hardware budget**, with **£1,783.20 remaining**.
 
 <br>
 
@@ -55,7 +55,7 @@ We selected hardware according to the requirements of each employee role rather 
 
 We also considered value for money. Higher-cost components were selected where their performance was relevant to the role, such as the dedicated RTX 5070 graphics cards for CAD and 3D visualisation work and 64GB of RAM for the 3D Visualisation Specialist.
 
-We also considered the available budgets when making purchasing recommendations. Each workstation remains within its allocated per-unit budget, and the complete hardware refresh remains within the overall £26,000 hardware budget.
+We also considered the available budgets when making purchasing recommendations. Each workstation remains within its allocated per-unit budget, and the complete hardware refresh remains within the overall £25,450 hardware budget.
 
 <br>
 
@@ -67,6 +67,6 @@ The database records four workstation builds and links each build to its relevan
 
 The complete recommendation consists of **12 workstations** with a total hardware cost of **£23,666.80**.
 
-This leaves **£2,333.20** within the overall **£26,000 hardware budget**.
+This leaves **£1,783.20** within the overall **£25,450 hardware budget**.
 
 Software and operating system licensing are managed separately and are not included in this hardware calculation.
