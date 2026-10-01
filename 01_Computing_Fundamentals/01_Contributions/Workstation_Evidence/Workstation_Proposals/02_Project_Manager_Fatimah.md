@@ -1,6 +1,6 @@
 # Project Manager Workstation Build - Fatimah
-<img width="2400" height="1260" alt="image" src="![Uploading image.png…]()
-" />
+<img width="2400" height="1260" alt="image" src="https://github.com/user-attachments/assets/4d6bccdb-0a7e-454b-a18f-1c08acd5d999" />
+
 
 | Component | Title | Price | Reason |
 |---|---|---:|---|
