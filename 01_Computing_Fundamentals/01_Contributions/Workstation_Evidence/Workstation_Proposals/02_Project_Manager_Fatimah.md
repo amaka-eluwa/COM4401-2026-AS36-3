@@ -16,4 +16,4 @@
 | Webcam | [NexiGo N60 1080p Webcam](https://uk.buildcores.com/products/Webcam/8o3zrhkcn/NexiGo-N60-1080p-Webcam) | £27.19 | Supports clear video for online meetings, client calls and hybrid working. |
 | Keyboard | [Redragon K745 Wired Gasket RGB Gaming Keyboard](https://uk.buildcores.com/products/Keyboard/os192pc2m/Redragon-K745-Wired-Gasket-RGB-Gaming-Keyboard%2C-108-Keys-Mechanical-Keyboard-w-Extra-4-Hotkeys%2C-Upgraded-Hot-swappable-Socket%2C-5-Layer-Noise-Dampening%2C-Creamy-%26-Thocky-Custom-Linear-Switch) | £54.99 | Provides reliable input for documents, project management software and general office work. |
 | Mouse | [Logitech M220 Wireless Mouse with Silent Clicks](https://uk.buildcores.com/products/Mouse/th26ruol1/Logitech-M220-Wireless-Mouse-with-Silent-Clicks) | £17.49 | Provides accurate navigation for everyday office tasks. |
-| **Total Price** | | **£1,386.29** | |
+| **Total Price** | | **£1,338** | |
