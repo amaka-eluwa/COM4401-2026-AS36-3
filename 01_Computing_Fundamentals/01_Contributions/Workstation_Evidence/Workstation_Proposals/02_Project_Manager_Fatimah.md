@@ -1,4 +1,7 @@
 # Project Manager Workstation Build - Fatimah
+<img width="2400" height="1260" alt="image" src="![Uploading image.png…]()
+" />
+
 | Component | Title | Price | Reason |
 |---|---|---:|---|
 | Case | [Corsair 3200D RS Black](https://uk.buildcores.com/products/PCCase/xbh2yq5c0/Corsair-3200D-RS-Black) | £59.99 | Provides suitable space and airflow for the workstation components. |
