@@ -21,7 +21,7 @@ The final workstation recommendations are based on the workstation builds record
 
 The complete hardware refresh costs **£23,666.80** for 12 workstations.
 
-The overall hardware budget is **£26,000**, leaving **£2,333.20** remaining within the allocated budget.
+The overall hardware budget is **£25,450**, leaving **£1,783.20** remaining within the allocated budget.
 
 Software and operating system licensing are managed separately and are not included in the hardware total.
 
