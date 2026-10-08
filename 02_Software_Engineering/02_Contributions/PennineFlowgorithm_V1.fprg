@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PennineFlowgorithm"/>
+        <attribute name="authors" value="Gabriella"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-08 05:55:31 AM"/>
+        <attribute name="created" value="R2FicmllbGxhO0RFU0tUT1AtTVZLT1Y2VDsyMDI2LTEwLTA4OzAxOjQ3OjU3IEFNOzMyOTU="/>
+        <attribute name="edited" value="R2FicmllbGxhO0RFU0tUT1AtTVZLT1Y2VDsyMDI2LTEwLTA4OzA1OjU1OjMxIEFNOzk7MzQwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="customerDetails" type="String" array="True" size="3"/>
+            <declare name="sizes" type="String" array="True" size="6"/>
+            <declare name="toppings" type="Integer" array="True" size="6"/>
+            <declare name="sizePrices, toppingCharges, pizzaCosts" type="Real" array="True" size="6"/>
+            <declare name="numPizzas" type="Integer" array="False" size=""/>
+            <declare name="delivery" type="String" array="False" size=""/>
+            <declare name="subtotal, discount, deliveryCharge, finalTotal" type="Real" array="False" size=""/>
+            <call expression="GetCustomerInfo(customerDetails)"/>
+            <assign variable="numPizzas" expression="GetPizzaCount()"/>
+            <call expression="GetPizzaChoices(numPizzas, sizes, toppings)"/>
+            <assign variable="delivery" expression="GetDeliveryOption()"/>
+        </body>
+    </function>
+    <function name="GetCustomerInfo" type="None" variable="">
+        <parameters>
+            <parameter name="customerDetails" type="String" array="True"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Enter customer name: &quot;" newline="True"/>
+            <input variable="customerDetails[0]"/>
+            <output expression="&quot;Enter customer address: &quot;" newline="True"/>
+            <input variable="customerDetails[1]"/>
+            <output expression="&quot;Enter customer phone number: &quot;" newline="True"/>
+            <input variable="customerDetails[2]"/>
+        </body>
+    </function>
+    <function name="GetDeliveryOption" type="String" variable="deliveryChoice">
+        <parameters/>
+        <body>
+            <declare name="deliveryChoice" type="String" array="False" size=""/>
+            <output expression="&quot;Is delivery required? (Yes or No): &quot;" newline="True"/>
+            <input variable="deliveryChoice"/>
+            <while expression="deliveryChoice != &quot;Yes&quot; And deliveryChoice != &quot;No&quot;">
+                <output expression="&quot;Invalid. Please type Yes or No: &quot;" newline="True"/>
+                <input variable="deliveryChoice"/>
+            </while>
+        </body>
+    </function>
+    <function name="GetPizzaChoices" type="None" variable="">
+        <parameters>
+            <parameter name="numPizzas" type="Integer" array="False"/>
+            <parameter name="sizes" type="String" array="True"/>
+            <parameter name="toppings" type="Integer" array="True"/>
+        </parameters>
+        <body>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <for variable="counter" start="0" end="numPizzas - 1" direction="inc" step="1">
+                <output expression="&quot;Enter size for pizza &quot; &amp; (counter + 1) &amp; &quot; (Small, Medium or Large): &quot;" newline="True"/>
+                <input variable="sizes[counter]"/>
+                <output expression="&quot;Enter number of extra toppings for pizza &quot; &amp; (counter + 1) &amp; &quot;: &quot;" newline="True"/>
+                <input variable="toppings[counter]"/>
+            </for>
+        </body>
+    </function>
+    <function name="GetPizzaCount" type="Integer" variable="count">
+        <parameters/>
+        <body>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter number of pizzas (1-6): &quot;" newline="True"/>
+            <input variable="count"/>
+            <while expression="count &lt; 1 or count &gt; 6">
+                <output expression="&quot;Invalid. Enter a number between 1 and 6: &quot;" newline="True"/>
+                <input variable="count"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
