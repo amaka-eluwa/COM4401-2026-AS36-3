@@ -29,15 +29,15 @@
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-| Task | Member 1 | Member 2 | Member 3 | Member 4 |
+| Task | Amaka | Enrique | Fatimah | Toby |
 |------|----------|----------|----------|----------|
-| Requirements analysis (what the program must do) | | | | |
-| IPO chart (Input – Process – Output) | | | | |
-| Flowchart / pseudocode design | | | | |
+| Requirements analysis (what the program must do) | RA | | | |
+| IPO chart (Input – Process – Output) | C | RA | | |
+| Flowchart / pseudocode design | C | | RA | RA |
 | Test plan (normal, abnormal, extreme data) | | | | |
-| Flowgorithm build (variables, input, processing) | | | | |
-| Flowgorithm build (decisions, loops, output) | | | | |
-| Validation / error handling | | | | |
+| Flowgorithm build (variables, input, processing) | RACI | RACI | RACI | RACI |
+| Flowgorithm build (decisions, loops, output) | RACI | RACI | RACI | RACI |
+| Validation / error handling | R | C | C | C |
 | Testing against the plan & recording results | | | | |
 | Deployment notes (how it would be rolled out) | | | | |
 | Ethical / professional considerations write-up | | | | |
