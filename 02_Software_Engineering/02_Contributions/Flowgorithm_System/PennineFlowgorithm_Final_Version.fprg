@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PennineFlowgorithm"/>
+        <attribute name="authors" value="Gabriella"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-20 01:04:47 PM"/>
+        <attribute name="created" value="R2FicmllbGxhO0RFU0tUT1AtTVZLT1Y2VDsyMDI2LTEwLTA4OzAxOjQ3OjU3IEFNOzMyOTU="/>
+        <attribute name="edited" value="R2FicmllbGxhO0RFU0tUT1AtTVZLT1Y2VDsyMDI2LTEwLTA4OzA1OjU1OjMxIEFNOzk7MzQwNg=="/>
+        <attribute name="edited" value="bWVtMWNydDtBTVRDMjEzLTEzOzIwMjYtMTAtMDg7MDE6NDI6NTUgUE07MjY7MjcyOA=="/>
+        <attribute name="edited" value="Y2U0Y3J0O0FNVEMyMTMtMTQ7MjAyNi0xMC0yMDswMTowNDo0NyBQTTs2OzI1NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="customerDetails" type="String" array="True" size="3"/>
+            <declare name="sizes" type="String" array="True" size="6"/>
+            <declare name="toppings" type="Integer" array="True" size="6"/>
+            <declare name="sizePrices, toppingCharges, pizzaCosts" type="Real" array="True" size="6"/>
+            <declare name="numPizzas" type="Integer" array="False" size=""/>
+            <declare name="delivery" type="String" array="False" size=""/>
+            <declare name="subtotal, discount, deliveryCharge, finalTotal" type="Real" array="False" size=""/>
+            <call expression="GetCustomerInfo(customerDetails)"/>
+            <assign variable="numPizzas" expression="GetPizzaCount()"/>
+            <call expression="GetPizzaChoices(numPizzas, sizes, toppings)"/>
+            <assign variable="delivery" expression="GetDeliveryOption()"/>
+            <call expression="CalculatePizzaCosts(numPizzas, sizes, toppings, sizePrices, toppingCharges, pizzaCosts)"/>
+            <assign variable="subtotal" expression="CalculateSubtotal(numPizzas, pizzaCosts)"/>
+            <assign variable="discount" expression="CalculateDiscount(subtotal)"/>
+            <assign variable="deliveryCharge" expression="GetDeliveryCharge(delivery)"/>
+            <assign variable="finalTotal" expression="CalculateFinalTotal(subtotal, discount, deliveryCharge)"/>
+            <call expression="DisplayCustomerHeader(customerDetails)"/>
+            <call expression="DisplayItemisedPizzas(numPizzas, sizes, toppings, sizePrices, toppingCharges, pizzaCosts)"/>
+            <call expression="DisplayTotals(subtotal, discount, deliveryCharge)"/>
+            <call expression="DisplayFinalTotal(finalTotal)"/>
+        </body>
+    </function>
+    <function name="CalculateDiscount" type="Real" variable="discount">
+        <parameters>
+            <parameter name="subtotal" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="discount" type="Real" array="False" size=""/>
+            <if expression="subtotal &gt; 20">
+                <then>
+                    <assign variable="discount" expression="subtotal * 0.10"/>
+                </then>
+                <else>
+                    <assign variable="discount" expression="0"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="CalculateFinalTotal" type="Real" variable="finalTotal">
+        <parameters>
+            <parameter name="subtotal" type="Real" array="False"/>
+            <parameter name="discount" type="Real" array="False"/>
+            <parameter name="deliveryCharge" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="finalTotal" type="Real" array="False" size=""/>
+            <assign variable="finalTotal" expression="(subtotal - discount) + deliveryCharge"/>
+        </body>
+    </function>
+    <function name="CalculatePizzaCosts" type="None" variable="">
+        <parameters>
+            <parameter name="numPizzas" type="Integer" array="False"/>
+            <parameter name="sizes" type="String" array="True"/>
+            <parameter name="toppings" type="Integer" array="True"/>
+            <parameter name="sizePrices" type="Real" array="True"/>
+            <parameter name="toppingCharges" type="Real" array="True"/>
+            <parameter name="pizzaCosts" type="Real" array="True"/>
+        </parameters>
+        <body>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <for variable="counter" start="0" end="numPizzas - 1" direction="inc" step="1">
+                <assign variable="sizePrices[counter]" expression="GetSizePrice(sizes[counter])"/>
+                <assign variable="toppingCharges[counter]" expression="GetToppingCharge(toppings[counter])"/>
+                <assign variable="pizzaCosts[counter]" expression="sizePrices[counter] + toppingCharges[counter]"/>
+            </for>
+        </body>
+    </function>
+    <function name="CalculateSubtotal" type="Real" variable="subtotal">
+        <parameters>
+            <parameter name="numPizzas" type="Integer" array="False"/>
+            <parameter name="pizzaCosts" type="Real" array="True"/>
+        </parameters>
+        <body>
+            <declare name="subtotal" type="Real" array="False" size=""/>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <assign variable="subtotal" expression="0"/>
+            <for variable="counter" start="0" end="numPizzas - 1" direction="inc" step="1">
+                <assign variable="subtotal" expression="subtotal + pizzaCosts[counter]"/>
+            </for>
+        </body>
+    </function>
+    <function name="DisplayCustomerHeader" type="None" variable="">
+        <parameters>
+            <parameter name="customerDetails" type="String" array="True"/>
+        </parameters>
+        <body>
+            <output expression="&quot;PENNINE PIZZA WORKS - ORDER BILL&quot;" newline="True"/>
+            <output expression="&quot;Customer: &quot; &amp; customerDetails[0]" newline="True"/>
+            <output expression="&quot;Address: &quot; &amp; customerDetails[1]" newline="True"/>
+            <output expression="&quot;Phone: &quot; &amp; customerDetails[2]" newline="True"/>
+        </body>
+    </function>
+    <function name="DisplayFinalTotal" type="None" variable="">
+        <parameters>
+            <parameter name="finalTotal" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;FINAL TOTAL: &#163;&quot; &amp;  ToFixed(finalTotal, 2)" newline="True"/>
+        </body>
+    </function>
+    <function name="DisplayItemisedPizzas" type="None" variable="">
+        <parameters>
+            <parameter name="numPizzas" type="Integer" array="False"/>
+            <parameter name="sizes" type="String" array="True"/>
+            <parameter name="toppings" type="Integer" array="True"/>
+            <parameter name="sizePrices" type="Real" array="True"/>
+            <parameter name="toppingCharges" type="Real" array="True"/>
+            <parameter name="pizzaCosts" type="Real" array="True"/>
+        </parameters>
+        <body>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <for variable="counter" start="0" end="numPizzas - 1" direction="inc" step="1">
+                <output expression="&quot;Pizza &quot; &amp; (counter + 1) &amp; &quot;: &quot; &amp; sizes[counter] &amp; &quot;, &quot; &amp; toppings[counter] &amp; &quot; extra toppings&quot;" newline="True"/>
+                <output expression="&quot; Standard &#163;&quot; &amp; ToFixed(sizePrices[counter], 2) &amp; &quot; Toppings &#163;&quot; &amp; ToFixed(toppingCharges[counter], 2) &amp; &quot; Pizza cost &#163;&quot; &amp; ToFixed(pizzaCosts[counter], 2)" newline="True"/>
+            </for>
+        </body>
+    </function>
+    <function name="DisplayTotals" type="None" variable="">
+        <parameters>
+            <parameter name="subtotal" type="Real" array="False"/>
+            <parameter name="discount" type="Real" array="False"/>
+            <parameter name="deliveryCharge" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Subtotal: &#163;&quot; &amp; ToFixed(subtotal, 2)" newline="True"/>
+            <output expression="&quot;Discount: -&#163;&quot; &amp; ToFixed(discount, 2)" newline="True"/>
+            <output expression="&quot;Delivery charge: &#163;&quot; &amp; ToFixed(deliveryCharge, 2)" newline="True"/>
+        </body>
+    </function>
+    <function name="GetCustomerInfo" type="None" variable="">
+        <parameters>
+            <parameter name="customerDetails" type="String" array="True"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Enter customer name: &quot;" newline="True"/>
+            <input variable="customerDetails[0]"/>
+            <output expression="&quot;Enter customer address: &quot;" newline="True"/>
+            <input variable="customerDetails[1]"/>
+            <output expression="&quot;Enter customer phone number: &quot;" newline="True"/>
+            <input variable="customerDetails[2]"/>
+        </body>
+    </function>
+    <function name="GetDeliveryCharge" type="Real" variable="deliveryCharge">
+        <parameters>
+            <parameter name="delivery" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="deliveryCharge" type="Real" array="False" size=""/>
+            <if expression="delivery == &quot;Yes&quot;">
+                <then>
+                    <assign variable="deliveryCharge" expression="2.50"/>
+                </then>
+                <else>
+                    <assign variable="deliveryCharge" expression="0"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="GetDeliveryOption" type="String" variable="deliveryChoice">
+        <parameters/>
+        <body>
+            <declare name="deliveryChoice" type="String" array="False" size=""/>
+            <output expression="&quot;Is delivery required? (Yes or No): &quot;" newline="True"/>
+            <input variable="deliveryChoice"/>
+            <while expression="deliveryChoice != &quot;Yes&quot; And deliveryChoice != &quot;No&quot;">
+                <output expression="&quot;Invalid. Please type Yes or No: &quot;" newline="True"/>
+                <input variable="deliveryChoice"/>
+            </while>
+        </body>
+    </function>
+    <function name="GetPizzaChoices" type="None" variable="">
+        <parameters>
+            <parameter name="numPizzas" type="Integer" array="False"/>
+            <parameter name="sizes" type="String" array="True"/>
+            <parameter name="toppings" type="Integer" array="True"/>
+        </parameters>
+        <body>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <declare name="toppingInput" type="String" array="False" size=""/>
+            <declare name="position" type="Integer" array="False" size=""/>
+            <declare name="code" type="Integer" array="False" size=""/>
+            <declare name="isValid" type="Boolean" array="False" size=""/>
+            <declare name="sizeInput" type="String" array="False" size=""/>
+            <declare name="sizeValid" type="Boolean" array="False" size=""/>
+            <for variable="counter" start="0" end="numPizzas - 1" direction="inc" step="1">
+                <output expression="&quot;Enter size for pizza &quot; &amp; (counter + 1) &amp; &quot; (Small, Medium or Large): &quot;" newline="True"/>
+                <assign variable="sizeValid" expression="false"/>
+                <while expression="sizeValid == false">
+                    <input variable="sizeInput"/>
+                    <if expression="sizeInput == &quot;Small&quot; or sizeInput == &quot;small&quot; or sizeInput == &quot;S&quot; or sizeInput == &quot;s&quot;">
+                        <then>
+                            <assign variable="sizes[counter]" expression="&quot;Small&quot;"/>
+                            <assign variable="sizeValid" expression="true"/>
+                        </then>
+                        <else>
+                            <if expression="sizeInput == &quot;Medium&quot; or sizeInput == &quot;medium&quot; or sizeInput == &quot;M&quot; or sizeInput == &quot;m&quot;">
+                                <then>
+                                    <assign variable="sizes[counter]" expression="&quot;Medium&quot;"/>
+                                    <assign variable="sizeValid" expression="true"/>
+                                </then>
+                                <else>
+                                    <if expression="sizeInput == &quot;Large&quot; or sizeInput == &quot;large&quot; or sizeInput == &quot;L&quot; or sizeInput == &quot;l&quot;">
+                                        <then>
+                                            <assign variable="sizes[counter]" expression="&quot;Large&quot;"/>
+                                            <assign variable="sizeValid" expression="true"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Invalid size. Please type Small, Medium or Large: &quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </while>
+                <output expression="&quot;Enter number of extra toppings for pizza &quot; &amp; (counter + 1) &amp; &quot;: &quot;" newline="True"/>
+                <input variable="toppingInput"/>
+                <assign variable="isValid" expression="false"/>
+                <while expression="isValid == false">
+                    <assign variable="isValid" expression="true"/>
+                    <if expression="Len(toppingInput) == 0">
+                        <then>
+                            <assign variable="isValid" expression="false"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <for variable="position" start="0" end="Len(toppingInput) - 1" direction="inc" step="1">
+                        <assign variable="code" expression="ToCode(Char(toppingInput, position))"/>
+                        <if expression="code &lt; 48 or code &gt; 57">
+                            <then>
+                                <assign variable="isValid" expression="false"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                    <if expression="isValid == false">
+                        <then>
+                            <output expression="&quot;Invalid. Please enter a whole number, 0 or more: &quot;" newline="True"/>
+                            <input variable="toppingInput"/>
+                        </then>
+                        <else/>
+                    </if>
+                </while>
+                <assign variable="toppings[counter]" expression="ToInteger(toppingInput)"/>
+            </for>
+        </body>
+    </function>
+    <function name="GetPizzaCount" type="Integer" variable="count">
+        <parameters/>
+        <body>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter number of pizzas (1-6): &quot;" newline="True"/>
+            <input variable="count"/>
+            <while expression="count &lt; 1 or count &gt; 6">
+                <output expression="&quot;Invalid. Enter a number between 1 and 6: &quot;" newline="True"/>
+                <input variable="count"/>
+            </while>
+        </body>
+    </function>
+    <function name="GetSizePrice" type="Real" variable="sizePrice">
+        <parameters>
+            <parameter name="size" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sizePrice" type="Real" array="False" size=""/>
+            <if expression="size == &quot;Small&quot;">
+                <then>
+                    <assign variable="sizePrice" expression="3.25"/>
+                </then>
+                <else>
+                    <if expression="size == &quot;Medium&quot;">
+                        <then>
+                            <assign variable="sizePrice" expression="5.50"/>
+                        </then>
+                        <else>
+                            <assign variable="sizePrice" expression="7.15"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="GetToppingCharge" type="Real" variable="toppingCharge">
+        <parameters>
+            <parameter name="toppingCount" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="toppingCharge" type="Real" array="False" size=""/>
+            <if expression="toppingCount == 0">
+                <then>
+                    <assign variable="toppingCharge" expression="0"/>
+                </then>
+                <else>
+                    <if expression="toppingCount == 1">
+                        <then>
+                            <assign variable="toppingCharge" expression="0.75"/>
+                        </then>
+                        <else>
+                            <if expression="toppingCount == 2">
+                                <then>
+                                    <assign variable="toppingCharge" expression="1.35"/>
+                                </then>
+                                <else>
+                                    <if expression="toppingCount == 3">
+                                        <then>
+                                            <assign variable="toppingCharge" expression="2.00"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="toppingCharge" expression="2.50"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
