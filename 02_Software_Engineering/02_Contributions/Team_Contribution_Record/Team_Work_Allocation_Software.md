@@ -41,7 +41,7 @@ The program was built in stages, one version per team member. Each person downlo
 | V2 | [`PennineFlowgorithm_V2.fprg`](../Flowgorithm_System/PennineFlowgorithm_V2.fprg) | Enrique | 2.1 `GetSizePrice`, 2.2 `GetToppingCharge`, 2.3 `CalculatePizzaCosts` |
 | V3 | [`PennineFlowgorithm_V3.fprg`](../Flowgorithm_System/PennineFlowgorithm_V3.fprg) | Toby | 3.1 `CalculateSubtotal`, 3.2 `CalculateDiscount`, 3.3 `GetDeliveryCharge`, 3.4 `CalculateFinalTotal` |
 | V4 | [`PennineFlowgorithm_V4.fprg`](../Flowgorithm_System/PennineFlowgorithm_V4.fprg) | Fatimah | 4.1 `DisplayCustomerHeader`, 4.2 `DisplayItemisedPizzas`, 4.3 `DisplayTotals`, 4.4 `DisplayFinalTotal` |
-| Final | [`PennineFlowgorithm_Final_Version.fprg`](../Flowgorithm_System/PennineFlowgorithm_Final_Version.fprg) | Amaka | Fixes from testing (see Section 5) |
+| Final | [`PennineFlowgorithm_Final_Version.fprg`](../Flowgorithm_System/PennineFlowgorithm_Final_Version.fprg) | Amaka | Fixes from testing |
 
 Testing was run on V4, since it was the first version containing all 15 subroutines.
 
