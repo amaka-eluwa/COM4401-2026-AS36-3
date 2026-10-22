@@ -31,10 +31,10 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed
 
 | Task | Amaka | Enrique | Fatimah | Toby |
 |------|----------|----------|----------|----------|
-| LAN design (devices, switches, topology) | | | | RA |
-| External network / internet gateway design | | | | RA |
-| IP addressing scheme & subnet plan | | | | RA |
-| Device address table (IPs, subnet mask, gateway) | | | | RA |
+| LAN design (devices, switches, topology) | I | | | RA |
+| External network / internet gateway design | I | | | RA |
+| IP addressing scheme & subnet plan | I | | | RA |
+| Device address table (IPs, subnet mask, gateway) | I | | | RA |
 | Protocol explanation: DNS | | | | |
 | Protocol explanation: HTTP | | | | |
 | Protocol explanation: ICMP (ping) | | | | |
