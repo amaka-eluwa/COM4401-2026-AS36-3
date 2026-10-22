@@ -31,14 +31,14 @@
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-| Task | M1 | M2 | M3 | M4 |
+| Task | Amaka | Enrique | Toby | Fatimah |
 |------|----|----|----|----|
-| Password hygiene section | | | | |
-| Two-factor authentication (2FA) section | | | | |
-| Phishing recognition section | | | | |
-| Safe use of devices section | | | | |
+| Password hygiene section | | I | RA | |
+| Two-factor authentication (2FA) section | RA | | | |
+| Phishing recognition section | | RA | | |
+| Safe use of devices section | | | | RA |
 | Public Wi-Fi section | | | | |
-| Introduction (why it matters) | | | | |
+| Introduction (why it matters) | | | RA | |
 | Conclusion (practical takeaways) | | | | |
 | Fact-check: trace every statistic to origin | | | | |
 | Merge sections into one consistent style/tone | | | | |
